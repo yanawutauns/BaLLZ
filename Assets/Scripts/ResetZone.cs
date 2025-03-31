@@ -5,9 +5,9 @@ public class ResetZone : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Ball")) // ตรวจสอบว่าเป็นลูกโบลิ่ง
+        if (other.CompareTag("Ball")) 
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name); // รีโหลดซีน
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name); 
         }
     }
 }
